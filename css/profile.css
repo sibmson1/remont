@@ -1,0 +1,80 @@
+.profile_block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A46A52;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.form_section_profile {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.info_user {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.more_info_user {
+    margin-top: 30px;
+}
+
+.cards_info_brond {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #C98162;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 900px;
+}
+
+.card_info_brond {
+    margin: 30px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    background: #D39073;
+    gap: 50px;
+}
+
+.card_info_blocks p{
+    color: #7C503D;
+}
+
+.card_info_blocks {
+    gap: 30px;
+}
+
+.card_info_block {
+    gap: 10px;
+    width: 45%;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .info_user{
+        flex-direction: column;
+    }
+    .card_info_brond {
+        margin: 10px;
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+    .card_info_blocks {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card_info_block {
+        width: 100%;
+    }
+}

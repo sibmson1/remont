@@ -1,0 +1,20 @@
+.form_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    background: #C98162;
+    border-radius: 15px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form_section_login {
+    max-width: 400px;
+}
+
+.message_info {
+    text-align: center;
+}
